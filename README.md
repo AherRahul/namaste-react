@@ -2,7 +2,7 @@
 
 ## Episode - 01
     
-### topics
+### Topics
 - Introducing React
 - What is React? Why React is known as ‘React’?
 - What is Library?
@@ -18,7 +18,7 @@
 
 ## Episode - 02 - Igniting Our App! (Namaste-React)
     
-### topics
+### Topics
 - To make our app production ready what should we do?
 - Bundlers
 - Package Manager
