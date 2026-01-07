@@ -7,7 +7,7 @@ const styleCard = {
 
 const RestroCard = (props) => {
 // const RestroCard = ({ resName, cusion }) => {
-    console.log(props);
+    // console.log(props);
     const { name, cuisines, avgRating, costForTwo, cloudinaryImageId } = props?.resData?.info;
     return (
         <div className="res-card" style={styleCard}>
