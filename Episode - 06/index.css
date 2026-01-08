@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+/* Other CSS rules follow below */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.main-body {
+  width: 80%;
+  padding-inline: 10%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(207, 207, 207);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f0f0f0;
+    padding-inline: 20px;
+    padding-block: 5px;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items > ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items > ul > li {
+    padding-inline: 10px;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.res-card {
+    width: 250px;
+    max-width: 250px;
+    max-height: 100%;
+    margin-inline: 10px;
+    margin-block: 15px;
+    border-radius: 10px;
+}
+
+.res-card .res-data {
+    padding-inline: 15px;
+}
+
+.res-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.search {
+    padding: 10px;
+}
+
+.res-logo {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+}
+
+.res-logo > img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.filter {
+    margin-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 6%;
+}
+
+.btn-filter {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgb(119, 250, 134);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-reset {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #a5a5a5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+}
+
+.total-res-count {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    padding-inline: 6%;
+}
+
+.locality {
+    font-size: 12px;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    width: 250px;
+    max-width: 250px;
+    height: 300px;
+    margin-block: 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.btn-login {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #a5a5a5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+}
+
+.search-res-input {
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid #a1a1a1;
+    margin-right: 10px;
+}
+
+.btn-filter {
+    border: none;
+}
